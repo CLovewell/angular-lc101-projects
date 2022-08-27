@@ -3,9 +3,18 @@ h3 {
 }
 
 img {
-
+   height: 350px;
+   padding: 12px;
 }
 
 .photos {
    text-align: center;
+}
+
+td {
+   border: dotted black;
+}
+
+table {
+   margin: auto;
 }
