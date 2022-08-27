@@ -3,18 +3,15 @@ h3 {
 }
 
 img {
-   height: 350px;
-   padding: 12px;
+   height: 80px;
+   padding: 4px;
 }
 
 .photos {
    text-align: center;
-}
-
-td {
-   border: dotted black;
-}
-
-table {
-   margin: auto;
+   border-top: solid rgb(252, 32, 252) 4px;
+   border-bottom: solid rgb(252, 32, 252) 4px;
+   border-left: solid rgb(32, 182, 252) 4px;
+   border-right: solid rgb(32, 182, 252) 4px;
+   border-radius: 2em;
 }

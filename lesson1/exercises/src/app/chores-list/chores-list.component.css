@@ -1,10 +1,11 @@
 .chores {
-    font-family: "Lucida Console", "Monaco", "monospace";
-    font-size: 2.4vw;
+    font-family: "Monaco", "Lucida Console", "Monaco", "monospace";
+    font-size: 2vw;
     color: darkblue;
     font-style: italic;
 }
 
 h3 {
     text-decoration: underline;
+    font-style: normal;
 }
