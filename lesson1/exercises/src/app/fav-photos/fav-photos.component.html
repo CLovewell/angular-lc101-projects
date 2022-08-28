@@ -1,6 +1,11 @@
 <div class="photos">
    <h3>{{photosTitle}}</h3>
+   <!--
    <img src={{image1}} alt="Oops! Missing photo!"><br>
    <img src="{{image2}}" alt="Oops! Missing photo!"><br>
    <img src="{{image3}}" alt="Oops! Missing photo!">
+   -->
+   <div *ngFor="let image of images">
+      <img src="{{image}}" alt="Oops! Missing photo!"><br>
+   </div>
 </div>
